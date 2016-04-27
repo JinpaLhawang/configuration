@@ -17,7 +17,7 @@ mvn package
 ## Running
 
 ```
-mvn spring-boot:run
+mvn -DCONFIG_URI=file:/Users/nicholaseden-walker/Development/jambudvipa/configuration spring-boot:run
 ```
 
 ### Requesting Environment Configuration
