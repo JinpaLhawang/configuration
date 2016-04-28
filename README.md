@@ -17,18 +17,14 @@ mvn package
 ## Running
 
 ```
-mvn -DCONFIG_URI=file:/Users/nicholaseden-walker/Development/jambudvipa/configuration spring-boot:run
+mvn -DCONFIG_URI=file:/Users/nicholaseden-walker/Development/jambudvipa/properties spring-boot:run
 ```
 
 ### Requesting Environment Configuration
 
-```
-curl -i http://localhost:8888/env
-```
+http://localhost:8888/env
 
 ### Requesting Configuration
 
-```
-curl -i http://localhost:8888/configuration/master
-curl -i http://localhost:8888/hello-world-middle/master
-```
+http://localhost:8888/configuration/master
+http://localhost:8888/hello-world-middle/master
