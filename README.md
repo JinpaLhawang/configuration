@@ -26,6 +26,5 @@ http://localhost:8888/env
 
 ### Requesting Configuration
 
-http://localhost:8888/configuration/master
 http://localhost:8888/account-middle/master
 http://localhost:8888/hello-world-middle/master
