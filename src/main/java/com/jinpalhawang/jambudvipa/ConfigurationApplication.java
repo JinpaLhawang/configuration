@@ -18,7 +18,7 @@ public class ConfigurationApplication {
     final SpringApplication app = new SpringApplication(ConfigurationApplication.class);
     app.setLogStartupInfo(false);
     app.run(args);
-    log.info(ConfigurationApplication.class.getSimpleName() + " started...");
+    log.info(ConfigurationApplication.class.getSimpleName() + " started.");
   }
 
 }
